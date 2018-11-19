@@ -53,6 +53,9 @@ char* CopyString(const char* str);
 // Соединяет две строки в одну новую.
 char* ConcatinateStrings(const char* a, const char* b);
 ```
+**Примечание 1**. Использовать функции для работы со строками (`strstr`, `strcpy`, `strcat` и др) запрещено.
+
+**Примечание 2**. Для копирования памяти необходимо использовать функции `memcpy` или `std::copy`.
 
 ### Задание 2
 
