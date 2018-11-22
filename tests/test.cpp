@@ -13,7 +13,7 @@ TEST(String, CopyString)
     p = "hello, world!";
 
     EXPECT_EQ(str[0], 's');
-    EXPECT_EQ(str[1], '0');
+    EXPECT_EQ(str[1], 'o');
     EXPECT_EQ(str[2], 'm');
     EXPECT_EQ(str[3], 'e');
     EXPECT_EQ(str[4], ' ');
