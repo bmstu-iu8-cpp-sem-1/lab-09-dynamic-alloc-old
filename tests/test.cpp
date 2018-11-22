@@ -96,9 +96,9 @@ TEST(Matrix, Transposition) {
 
   Transposition(m);
   EXPECT_EQ(m.data_[0][0], 1);
-  EXPECT_EQ(m.data_[0][1], 4);
-  EXPECT_EQ(m.data_[1][0], 3);
-  EXPECT_EQ(m.data_[1][1], 2);
+  EXPECT_EQ(m.data_[0][1], 3);
+  EXPECT_EQ(m.data_[1][0], 2);
+  EXPECT_EQ(m.data_[1][1], 4);
 
   Transposition(m);
   EXPECT_EQ(m.data_[0][0], 1);
